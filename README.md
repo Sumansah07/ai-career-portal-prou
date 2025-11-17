@@ -27,16 +27,16 @@ A comprehensive MERN stack application that provides AI-powered resume analysis,
 
 ### Application Interface
 ![Homepage](frontend/public/Screenshot%202025-11-17%20151822.png)
-*Homepage with modern design and intuitive navigation*
-
-![Dashboard](frontend/public/Screenshot%202025-11-17%20152001.png)
-*User dashboard with personalized content and quick actions*
-
-![Resume Analysis](frontend/public/Screenshot%202025-11-17%20152157.png)
 *AI-powered resume analysis with detailed feedback*
 
+![Dashboard](frontend/public/Screenshot%202025-11-17%20152001.png)
+*User smart Job Matching according to Resume Analysis*
+
+![Resume Analysis](frontend/public/Screenshot%202025-11-17%20152157.png)
+*Job posting by Recruiter role*
+
 ![Job Matching](frontend/public/Screenshot%202025-11-17%20152247.png)
-*Smart job matching and recommendations*
+*Analysis dashboard for the jobs and applications for Recruitment role*
 
 ## 🛠️ Technology Stack
 
