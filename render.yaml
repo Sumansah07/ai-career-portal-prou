@@ -1,0 +1,38 @@
+# Render Configuration
+# This file defines the services for Render deployment
+
+services:
+  # Backend API Service
+  - type: web
+    name: ai-career-portal-backend
+    runtime: node
+    plan: starter  # Change to 'standard' or 'pro' for production
+    buildCommand: npm ci && npm run build
+    startCommand: npm start
+    rootDir: backend
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: PORT
+        value: 10000  # Render's default port
+    autoDeploy: true
+    branch: main
+    region: oregon  # Choose: oregon, frankfurt, singapore
+    
+  # Frontend Web Service  
+  - type: web
+    name: ai-career-portal-frontend
+    runtime: node
+    plan: starter  # Change to 'standard' or 'pro' for production
+    buildCommand: npm ci && npm run build
+    startCommand: npm start
+    rootDir: frontend
+    envVars:
+      - key: NODE_ENV
+        value: production
+    autoDeploy: true
+    branch: main
+    region: oregon
+
+# Database (You'll need to set up MongoDB Atlas separately)
+# Render doesn't provide managed MongoDB, so use MongoDB Atlas

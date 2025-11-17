@@ -1,0 +1,15 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 7
+    },
+    "auditLog": "D:\\capstone projects\\backend\\src\\logs\\.610c811189db88b846680caea7a549cc2ecdb8e8-audit.json",
+    "files": [
+        {
+            "date": 1762437269508,
+            "name": "D:\\capstone projects\\backend\\src\\logs\\access-2025-11-06.log",
+            "hash": "4fd793312ff66f8df5477e7e9dc967c88a89ea803dfff7297a22634eba29acba"
+        }
+    ],
+    "hashType": "sha256"
+}
