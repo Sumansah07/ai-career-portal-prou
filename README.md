@@ -23,6 +23,21 @@ A comprehensive MERN stack application that provides AI-powered resume analysis,
 - **Job Management**: Create and manage job postings
 - **System Monitoring**: Track system performance and user engagement
 
+## 📸 Screenshots
+
+### Application Interface
+![Homepage](frontend/public/Screenshot%202025-11-17%20151822.png)
+*Homepage with modern design and intuitive navigation*
+
+![Dashboard](frontend/public/Screenshot%202025-11-17%20152001.png)
+*User dashboard with personalized content and quick actions*
+
+![Resume Analysis](frontend/public/Screenshot%202025-11-17%20152157.png)
+*AI-powered resume analysis with detailed feedback*
+
+![Job Matching](frontend/public/Screenshot%202025-11-17%20152247.png)
+*Smart job matching and recommendations*
+
 ## 🛠️ Technology Stack
 
 ### Frontend
@@ -200,7 +215,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 👥 Team
 
 - **Developer**: Your Name
-- **Project Type**: Bachelor's Capstone Project in IT
+- **Project Type**: ai-career-portal-prou Project 
 - **Institution**: Your University
 
 ## 🙏 Acknowledgments
@@ -212,4 +227,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-**Note**: This is a capstone project demonstrating modern web development practices with AI integration. The project showcases full-stack development skills using the MERN stack with TypeScript and modern UI/UX design principles.
+**Note**: This is a ai-career-portal-prou project demonstrating modern web development practices with AI integration. The project showcases full-stack development skills using the MERN stack with TypeScript and modern UI/UX design principles.
